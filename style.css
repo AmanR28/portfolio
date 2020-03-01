@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+@media screen and (max-width: 700px) {
+    main {   
+      flex-direction: column;
+    }
+  }
+
+.works {
+    width: 70%;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+.work {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 3px;
+}
+.info {
+    padding-left: 20px;
+}
+
+.about {
+    width: 30%;
+    padding-right: 5%;
+}
+
+img.about {
+    width: 100%;
+}
