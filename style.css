@@ -27,14 +27,20 @@ main {
 }
 
 .work {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+
 }
 
 .title {
     margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .info {
     padding-left: 20px;
+}
+span.notify {
+    text-decoration: underline;
 }
 
 .about {
@@ -44,4 +50,18 @@ main {
 
 img.about {
     width: 100%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+a.disabled {
+    color: rgb(112, 80, 80);
 }
